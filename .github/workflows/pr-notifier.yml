@@ -14,5 +14,5 @@ jobs:
         env:
           SLACK_API_KEY: ${{ secrets.PR_ACTIVITY_SLACKAPP_TOKEN }}
           SLACK_CHANNEL_ID: ${{ secrets.SLACK_PR_ACT_CHANNEL_ID }}
-          DAYS_BEFORE: -0.042
+          DAYS_BEFORE: -1
           GITHUB_TOKEN: ${{ github.token }}
