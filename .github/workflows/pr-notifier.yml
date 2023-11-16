@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: notify old prs
-        uses: movingimage-evp/pr-notifier@v1
+        uses: movingimage-evp/pr-notifier@v1.2.0
         env:
           SLACK_API_KEY: ${{ secrets.PR_ACTIVITY_SLACKAPP_TOKEN }}
           SLACK_CHANNEL_ID: ${{ secrets.SLACK_PR_ACT_CHANNEL_ID }}
